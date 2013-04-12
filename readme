@@ -1,0 +1,7 @@
+Get JNI Signatures with:
+
+javap -classpath bin/classes -s -p com.techtest.nativefactorial.MainActivity
+
+To generate the header:
+
+javah -jni -classpath bin/classes -d jni com.techtest.nativefactorial.MainActivity
